@@ -35,7 +35,7 @@ class MakeTokenArguments(TaskArguments):
                 display_name="Password",
                 type=ParameterType.String,
                 parameter_group_info=[ParameterGroupInfo(
-                    required=True,
+                    required=False,
                     ui_position=2
                 )]
             ),
